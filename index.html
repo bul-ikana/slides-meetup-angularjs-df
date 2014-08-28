@@ -42,49 +42,52 @@
 
 			<!-- Any section element inside of this container is displayed as a slide -->
 			<div class="slides">
-				<section>
-					<h1>Ubicla</h1>
-					<h3>Información valiosa para ciclistas.</h3>
+				<section data-background="#ffffff">
+					<img src="img/logo.svg">
+					<br><br>
+					<h3 class="intro">Información valiosa para ciclistas.</h3>
 					<p>
-						<small>Meetup AngularJS DF - 30/Ago/2014 - Centraal, México D.F.</small>
+						<small class="intro">Meetup AngularJS DF - 30/Ago/2014 - Centraal, México D.F.</small>
 					</p>
 				</section>
 
 				<section>
-					<h2>Ubicla</h2>
-					<p>Ubicla es el front-end de una aplicación web exportable a dispositivos móviles que provee información valiosa para ciclistas.</p>
+					<h2><strong>Ubicla</strong></h2>
+					<p class="stroke">Ubicla es el front-end de una aplicación web exportable a dispositivos móviles que provee información valiosa para ciclistas.</p>
 				</section>
 
 				<section>
 					<h1>¿Cómo nace <strong>Ubicla</strong>?</h1>
 				</section>
 
-				<section>
-					<h2>Mapas, mapas y mapas...</h2>
+				<section data-background="img/mapas.jpg" data-background-transition="slide">
+					<h2 class="marked">Mapas, mapas y mapas...</h2>
 				</section>
 
-				<section>
+				<section data-background-transition="slide">
 					<h2>Gira Telmex Hub Puebla - App Challenge</h2>
+					<img src="img/telmexhub.jpg">
 				</section>
 
 				<section>
 					<h2>Suben! Hay Lugares</h2>
+					<img src="img/suben2.jpg">
+					<img src="img/suben1.jpg">
 				</section>
 
 				<section>
-					<h2>Los intentos de migración</h2>
+					<h2>Guía Romantica <br> <small>jQuery Mobile y Phonegap</small></h2>
+					<img src="img/suben2.jpg">
+					<img src="img/suben1.jpg">
 				</section>
 
 				<section>
 					<h2>Titanium y mapas offline</h2>
-				</section>
-
-				<section>
-					<h2>Guía Romantica - jQuery Mobile y Phonegap</h2>
-				</section>
-
-				<section>
-					<h2>Otras opciones</h2>
+					<br><br>
+					<img src="img/ti.png">
+					<img src="img/tm.png">
+					<img src="img/osm.svg">
+					logo open layers
 				</section>
 
 				<section>
@@ -92,15 +95,17 @@
 				</section>
 
 				<section>
-					<h2>Open Data Puebla</h2>
+					<img src="img/od.svg">
 				</section>
 
 				<section>
-					<h2>Bicionudos</h2>
+					<img src="img/bicionudos.png">
 				</section>
 
 				<section>
-					<h2>Bici Por Puebla</h2>
+					<h2><a href="http://bicis.mecabotware.com">Bici Por Puebla</a></h2>
+					<img src="img/suben2.jpg">
+					<img src="img/suben1.jpg">
 				</section>
 
 				<section>
@@ -179,7 +184,7 @@
 			// Full list of configuration options available here:
 			// https://github.com/hakimel/reveal.js#configuration
 			Reveal.initialize({
-				controls: true,
+				controls: false,
 				progress: true,
 				history: true,
 				center: true,
