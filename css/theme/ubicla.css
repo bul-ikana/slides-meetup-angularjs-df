@@ -148,3 +148,19 @@ body {
   padding-top: 20px;
   padding-bottom: 20px;
 }
+
+/*DEVICE*/
+
+.phone{background-image:url("../../img/phone.png");height:613px;width:339px;}
+.phone > iframe{position:relative;top:38px;width:304px;height:490px}
+.phone {
+  margin: -10px auto !important;
+}
+
+iframe{
+}
+
+.fa {
+  font: normal normal normal 14px/1 FontAwesome !important;
+  font-size: 80px !important;
+}
